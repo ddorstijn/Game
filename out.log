@@ -1,0 +1,40 @@
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
+/home/drvanon/projects/game/script.sh: line 2: venv/bin/activate: No such file or directory
+Traceback (most recent call last):
+  File "run.py", line 1, in <module>
+    from tornado.wsgi import WSGIContainer
+ImportError: No module named 'tornado'
