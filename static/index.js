@@ -2,12 +2,12 @@ var resources, all_buildings, fps;
 
 resources = [ 
 	{
-		'name': 'gold'
-		'value': 1000,
+		'name': 'gold',
+		'value': 1000
 	},
 	{
-		'name': 'coins'
-		'value': 0,
+		'name': 'coins',
+		'value': 0
 	}
 ];
 
@@ -26,21 +26,15 @@ all_buildings = [
 	}
 ];
 
-buildings = [
-	$.extend({}, all_buildings[0])
-];
-
-$(buildings).each(function (i, e) {e.id = i;})
-
 building = 
 {
 	'level': '1', 
-	'time': '3',
+	'stime': '3',
 	'timeOutId': null,
 	'doing': false,
 	'efficiancy': 1,
 	'time': function () {
-		return this.time * 1000;
+		return this.stime * 1000;
 	},
 	'do': function () { 
 		var change = this.level * 10;
@@ -74,9 +68,25 @@ building =
 	}
 }
 
-$(buildings).each(function (i, e) {
-	$(e).extend(e, building);
-})
+function getBuildingType(type) {
+	var result;
+	$(all_buildings).each(function (i, e){
+		if(e.name == type) {
+			result = e;
+		}
+	});
+	return result;
+}
+
+function addBuilding(type) {
+	buildings.push($.extend($.extend({}, building), getBuildingType(type)));
+}
+
+buildings = [];
+
+addBuilding('goldsmelter');
+
+$(buildings).each(function (i, e) {e.id = i;})
 
 function setResource (resourceName, value) {
 	$(resources).each(function (i, e) {
