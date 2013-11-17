@@ -197,6 +197,7 @@ function init_all_buildings () {
 				setResource('coins', getResource('coins').value - e.value);
 				var new_building = $.extend({}, e);
 				$.extend(new_building, building);
+				new_building.do();
 				buildings.push();
 				init_buildings();
 			} else {
