@@ -22,3 +22,15 @@ div.container {
 button {
 	margin: 2px;
 }
+
+example1{
+	width:100px;
+	height:50px;
+	border:5px solid red;;
+}
+
+example2{
+	width:100px;
+	height:50px;
+	border:5px solid blue;;
+}
